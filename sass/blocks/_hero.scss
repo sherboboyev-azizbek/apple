@@ -1,0 +1,63 @@
+.hero {
+   padding: 91px 0 185px 0;
+   background-image: url(../../images/watches.png);
+   background-repeat: no-repeat;
+   background-size: 587px 565px;
+   background-position: calc(50% + 520px) calc(50% + 0px);
+}
+
+.hero__title {
+   margin: 0 0 30px 0;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+color: #000000;
+}
+.hero__text-box {
+   width: 100%;
+   max-width: 450px;
+   padding-left: 40px;
+   border-left: 3px solid #888888;
+}
+.hero__text {
+margin: 0 0 30px 0;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #777777;
+}
+.hero__link {
+display: inline-block;
+padding: 12px 38px;
+background: #EA625C;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+
+// Responsivlik
+@media only screen and (max-width:520px){
+   .hero{
+      padding: 156px 0 0 30px;
+      background-size: 392px 378px;
+      background-position: calc(50% + 100px) calc(50% + -180px);
+   }
+.hero-inner{
+   margin-top: 200px;
+   display: flex;
+   flex-direction: column; 
+}
+.hero__title{
+   font-size: 45px;
+   line-height: 100%;
+}
+}

@@ -1,0 +1,73 @@
+.run {
+   padding: 70px 70px;
+   
+}
+.run__list {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+.run__item {
+   margin: 0;
+   padding: 0;
+}
+.run__name {
+   margin: 0 0 30px 0;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+text-transform: uppercase;
+color: #222222;
+}
+.run__text-box {
+    width: 100%;
+   max-width: 280px;
+}
+.run__text {
+margin: 0 0 20PX 0;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #333333;
+}
+.run__span-box {
+   display: flex;
+   align-items: center;
+   
+}
+.run__rectangle {
+   display: block;
+   width: 8px;
+   height: 8px;
+   background: #DDDDDD;
+   margin-right: 10px;
+}
+.middle-box{
+   margin-bottom: 24px;
+}
+.run__link-box {
+   display: flex;
+   align-items: center;
+   margin-bottom: 54px;
+}
+.run__lines {
+   width: 40px;
+   border: 2px solid #EA625C;
+   background-color: #EA625C;
+   margin-right: 10px;
+}
+.run__link {
+display: inline-block;
+text-decoration: none;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+text-transform: uppercase;
+color: #EA625C;
+}
