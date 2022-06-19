@@ -746,10 +746,7 @@ img {
 
 .health-inner {
   display: block;
-}
-
-.health__left {
-  display: block;
+  width: 490px;
   margin-left: auto;
 }
 
